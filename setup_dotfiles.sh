@@ -14,4 +14,3 @@ source ~/.bash_profile
 
 #setup vim
 sh setup_vim.sh
-
