@@ -16,6 +16,14 @@ call vundle#begin()
   "needed to install rest of plugins
   Plugin 'gmarik/Vundle.vim'
 
+  Plugin 'itspriddle/vim-stripper'
+
+  Plugin 'tpope/vim-rails'
+
+  Plugin 'kchmck/vim-coffee-script'
+
+  Plugin 'pangloss/vim-javascript'
+
   "install colorscheme
   Plugin 'tomasr/molokai'
 call vundle#end()
