@@ -37,6 +37,7 @@ syntax on "syntax highlighting
 set cursorline "highlights current line
 
 set laststatus=2 "always display status bar
+set diffopt+=iwhite "ignore white space in vimdiff
 
 set ruler "sets line/column in bottom row
 set number "line numbers
@@ -49,6 +50,8 @@ set softtabstop=2
 set shiftwidth=2
 
 set backspace=indent,eol,start "Backspace over these characters
+set clipboard=unnamed "integrate with OS clipboard
+set mouse=a "mouse support
 
 set scrolloff=10 "keeps 10 lines before/after scroller
 set sidescrolloff=5 "keeps 5 lines to right of screen
