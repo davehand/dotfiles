@@ -17,6 +17,12 @@ export HISTSIZE=4096
 export HISTFILESIZE=4096
 export HISTCONTROL=ignoredups:erasedups
 
+#use colors
+export CLICOLOR=1
+
+#use linux colors for ls
+export LSCOLORS=gxBxhxDxCxhxhxhxhxcxcx
+
 #aliases for popular commands
 alias ls="ls -Gh"
 alias ll="ls -alGh"
