@@ -32,7 +32,7 @@ call vundle#end()
 filetype plugin indent on
 
 set t_Co=256 "Enable 256 colors in vim
-colorscheme molokai "Use the molokai color scheme
+silent! colorscheme molokai "Use the molokai color scheme if present
 let g:rehash256 = 1 "Use Molokai's new version
 syntax on "syntax highlighting
 
