@@ -7,9 +7,11 @@ set nocompatible "disable vi compatibility
 filetype off
 
 ":PluginList       - lists configured plugins
-":PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+":PluginInstall    - installs plugins;
+"                    append `!` to update or just :PluginUpdate
 ":PluginSearch foo - searches for foo; append `!` to refresh local cache
-":PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+":PluginClean      - confirms removal of unused plugins;
+"                    append `!` to auto-approve removal
 "Also can run :h vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -60,3 +62,5 @@ set hlsearch "highlight search terms
 set incsearch "search as you type
 set ignorecase "ignore letter case
 set smartcase "unless search has uppercase char in it
+
+set cc=80 "highlight column 80 for better code
