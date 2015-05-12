@@ -7,8 +7,12 @@ if [ -f ~/.prompt_bash ]; then
     source ~/.prompt_bash
 fi
 
+#set default editor
 export EDITOR=vim
+
+#set git specific variables
 export GIT_EDITOR=vim
+export GIT_CRED=osxkeychain #should be different between Mac and Linux
 
 #configure history files
 #don't store too much or duplicates
