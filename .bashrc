@@ -7,9 +7,14 @@ if [ -f ~/.prompt_bash ]; then
   source ~/.prompt_bash
 fi
 
+#source homebrew tab completion
+if [ -f $(brew --prefix)/Library/Contributions/brew_bash_completion.sh ]; then
+  source $(brew --prefix)/Library/Contributions/brew_bash_completion.sh
+fi
+
 #source the bash completion file if it exists
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-  source `brew --prefix`/etc/bash_completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  source $(brew --prefix)/etc/bash_completion
 fi
 
 #set default editor
