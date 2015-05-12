@@ -1,0 +1,39 @@
+#git settings
+#Author: Dave Hand
+
+[user]
+	name = Dave Hand
+	email = davehand@users.noreply.github.com
+[github]
+	user = davehand
+[core]
+  excludesfile = ~/.gitignore_global
+  quotepath = false
+  pager = less -FRX
+	editor = $GIT_EDITOR
+[push]
+  ; always be explicit
+  default = nothing
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+[color "branch"]
+  current = cyan
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[merge]
+  tool = vimdiff
+[credential]
+	helper = $GIT_CRED
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
