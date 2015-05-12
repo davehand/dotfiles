@@ -4,7 +4,12 @@
 
 #source the prompt for bash
 if [ -f ~/.prompt_bash ]; then
-    source ~/.prompt_bash
+  source ~/.prompt_bash
+fi
+
+#source the bash completion file if it exists
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+  source `brew --prefix`/etc/bash_completion
 fi
 
 #set default editor
