@@ -17,6 +17,11 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   source $(brew --prefix)/etc/bash_completion
 fi
 
+#add the homebrew path to the PATH TODO brew setting this now?
+#if [ -d $(brew --prefix)/bin ]; then
+#  export PATH=$(brew --prefix)/bin:$PATH
+#fi
+
 #set default editor
 export EDITOR=vim
 
