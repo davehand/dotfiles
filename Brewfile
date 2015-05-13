@@ -15,6 +15,7 @@ brew 'brew-cask'
 brew 'coreutils'
 brew 'cowsay'
 brew 'cscope'
+brew 'ctags'
 brew 'fortune'
 brew 'freetype'
 brew 'git'
@@ -25,7 +26,7 @@ brew 'libyaml' #required by rbenv
 brew 'libffi' #required by rbenv
 brew 'node'
 brew 'openssl'
-brew 'python'
+brew 'python' #installs pip as well
 brew 'qt'
 brew 'rbenv'
 brew 'ruby-build'
