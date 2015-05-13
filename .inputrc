@@ -1,0 +1,12 @@
+#Configuration settings for Readline
+#Author: Dave Hand
+#Borrowed somewhat from exchgr
+
+set visible-stats on #show file type with completion results
+set completion-ignore-case on #ignore case for completion purposes
+set expand-tilde on #expand the tilde to the full path
+set mark-symlinked-directories on #show symlinked directories with /
+set skip-completed-text on #doesn't re-enter already existing text
+set show-all-if-ambiguous on #skips bell, shows matches immediately
+set show-all-if-unmodified on
+set colored-stats on #display colors in completion results (fails on Mac)
