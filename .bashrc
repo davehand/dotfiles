@@ -61,7 +61,7 @@ man() {
 
 #update brew
 bup() {
-  brew update; brew upgrade; brew cleanup
+  brew update; brew upgrade --all; brew cleanup
   brew update; brew upgrade brew-cask; brew cask cleanup
 }
 #TODO update other package managers and such: pip, gem, npm
