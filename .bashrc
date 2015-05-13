@@ -38,7 +38,7 @@ export HISTCONTROL=ignoredups:erasedups
 
 #use colors in terminal
 export CLICOLOR=1
-#use linux colors for ls
+#use linux colors for ls - LS_COLORS on Linux
 export LSCOLORS=gxBxhxDxCxhxhxhxhxcxcx
 
 #aliases for popular commands
