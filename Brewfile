@@ -34,7 +34,7 @@ brew 'readline'
 brew 'tmux'
 brew 'tree'
 brew 'vim'
-brew 'wget'
+brew 'wget', args: ['with-iri']
 
 #cask files
 #Didn't install:
