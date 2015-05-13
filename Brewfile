@@ -2,7 +2,7 @@
 #Author: Dave Hand
 #Dependencies:A
 # *XCode
-# *XCode Command Line Tools
+# *XCode Command Line Tools xcode-select --install
 # *Homebrew: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 tap 'Homebrew/bundle'
@@ -21,10 +21,14 @@ brew 'git'
 brew 'htop-osx'
 brew 'httpie'
 brew 'irssi'
+brew 'libyaml' #required by rbenv
+brew 'libffi' #required by rbenv
 brew 'node'
 brew 'openssl'
 brew 'python'
 brew 'qt'
+brew 'rbenv'
+brew 'ruby-build'
 brew 'readline'
 brew 'tmux'
 brew 'tree'
