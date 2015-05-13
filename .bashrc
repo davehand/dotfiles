@@ -25,7 +25,7 @@ fi
 #set default editor
 export EDITOR=vim
 
-#set git specific variables
+#set git specific variables for gitconfig
 export GIT_EDITOR=vim
 export GIT_CRED=osxkeychain #should be different between Mac and Linux
 
@@ -36,15 +36,36 @@ export HISTSIZE=4096
 export HISTFILESIZE=4096
 export HISTCONTROL=ignoredups:erasedups
 
-#use colors
+#use colors in terminal
 export CLICOLOR=1
-
 #use linux colors for ls
 export LSCOLORS=gxBxhxDxCxhxhxhxhxcxcx
 
 #aliases for popular commands
 alias ls="ls -Gh"
 alias ll="ls -alGh"
+
+#custom functions
+#colored man pages
+man() {
+  env \
+  LESS_TERMCAP_mb=$(printf "\e[1;31m") \
+  LESS_TERMCAP_md=$(printf "\e[1;31m") \
+  LESS_TERMCAP_me=$(printf "\e[0m") \
+  LESS_TERMCAP_se=$(printf "\e[0m") \
+  LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
+  LESS_TERMCAP_ue=$(printf "\e[0m") \
+  LESS_TERMCAP_us=$(printf "\e[1;32m") \
+  man "$@"
+}
+
+#update brew
+bup() {
+  brew update; brew upgrade; brew cleanup
+  brew update; brew upgrade brew-cask; brew cask cleanup
+}
+#TODO update other package managers and such: pip, gem, npm
+#TODO update script that calls rest of update functions
 
 # check that archey is installed, then run it
 if [ -x /usr/local/bin/archey ]; then
