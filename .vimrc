@@ -26,6 +26,8 @@ call vundle#begin()
 
   Plugin 'pangloss/vim-javascript'
 
+  Plugin 'scrooloose/nerdtree'
+
   "install colorscheme
   Plugin 'tomasr/molokai'
 call vundle#end()
