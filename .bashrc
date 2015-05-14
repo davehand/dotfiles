@@ -2,6 +2,11 @@
 #Author: Dave Hand
 #Sourced from .bash_profile
 
+#add the homebrew path to the PATH TODO brew setting this now?
+#if [ -d $(brew --prefix)/bin ]; then
+#  export PATH=$(brew --prefix)/bin:$PATH
+#fi
+
 #source the prompt for bash
 if [ -f ~/.prompt_bash ]; then
   source ~/.prompt_bash
@@ -17,10 +22,11 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   source $(brew --prefix)/etc/bash_completion
 fi
 
-#add the homebrew path to the PATH TODO brew setting this now?
-#if [ -d $(brew --prefix)/bin ]; then
-#  export PATH=$(brew --prefix)/bin:$PATH
-#fi
+#source rbenv commands if rbenv directory exists
+if [ -d $HOME/.rbenv ]; then
+  export PATH="$HOME/.rbenv/bin:$PATH"
+  eval "$(rbenv init -)"
+fi
 
 #set default editor
 export EDITOR=vim
