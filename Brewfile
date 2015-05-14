@@ -30,6 +30,7 @@ brew 'python' #installs pip as well
 brew 'qt'
 brew 'rbenv'
 brew 'ruby-build'
+brew 'rbenv-gem-rehash' #automatically run rehash
 brew 'readline'
 brew 'tmux'
 brew 'tree'
