@@ -46,6 +46,7 @@ set diffopt+=iwhite "ignore white space in vimdiff
 set ruler "sets line/column in bottom row
 set number "line numbers
 set nowrap "don't wrap lines
+set virtualedit=onemore "can place cursor over line end in normal mode
 
 set expandtab
 set smarttab "Insert space instead of tabs
@@ -59,6 +60,16 @@ set mouse=a "mouse support
 
 set scrolloff=10 "keeps 10 lines before/after scroller
 set sidescrolloff=5 "keeps 5 lines to right of screen
+
+if &term =~ '^screen'
+  set ttymouse=xterm2 "Fixes window resizing in tmux
+end
+
+"Fix vim slowness in tmux
+set ttyfast
+set notimeout
+set ttimeout
+set timeoutlen=500
 
 set hlsearch "highlight search terms
 set incsearch "search as you type
