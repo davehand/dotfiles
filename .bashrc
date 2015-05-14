@@ -51,6 +51,7 @@ export LSCOLORS=gxBxhxDxCxhxhxhxhxcxcx
 alias ls="ls -Gh"
 alias ll="CLICOLOR_FORCE=1 ls -alGh" #forces colors through pipes
 alias less="less -R" #read in color
+alias vi="vim" #too many mistakes
 
 #custom functions
 #colored man pages
