@@ -9,7 +9,7 @@ xcode-select --install
 
 #Install homebrew and brew bundle
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-tap 'Homebrew/bundle'
+brew tap Homebrew/bundle
 brew bundle
 
 #make backup directory for storing already existent system files
