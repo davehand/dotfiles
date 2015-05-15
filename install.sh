@@ -18,16 +18,18 @@ if [ ! -e $HOME/backups ]; then
 fi
 
 #iterate over all dotfiles
+cd configs
 for f in .[^.]*; do
   if [ -f $f ]; then #only care about files
     HOME_FILE="$HOME/$f"
     if [ -e $HOME_FILE ]; then #remove any existing file
       mv $HOME_FILE $HOME/backups #move to backup directory
     fi
-    echo new link $HOME/.dotfiles/$f to $HOME_FILE
-    ln -s $HOME/.dotfiles/$f $HOME_FILE #symlink
+    echo new link $HOME/.dotfiles/configs/$f to $HOME_FILE
+    ln -s $HOME/.dotfiles/configs/$f $HOME_FILE #symlink
   fi
 done
+cd ..
 
 #setup vim
 #first, clone the vundle repository
