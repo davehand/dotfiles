@@ -22,7 +22,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   source $(brew --prefix)/etc/bash_completion
 fi
 
-#source rbenv commands if rbenv directory exists
+#source rbenv commands if rbenv directory exists TODO not sure if makes a .rbenv dir on Mac
 if [ -d $HOME/.rbenv ]; then
   export PATH="$HOME/.rbenv/bin:$PATH"
   eval "$(rbenv init -)"

@@ -1,21 +1,28 @@
 #!/bin/bash
 #setup script for putting all dotfiles in home directory
 #Author: Dave Hand
-#Requires dotfiles repo from github
+#Requires dotfiles repo from github, git, XCode
+#Notes: After install, still have some apps to install (see Brewfile)
+
+#First need to install xcode command line tools
+xcode-select --install
+
+#Install homebrew and brew bundle
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+tap 'Homebrew/bundle'
+brew bundle
 
 #make backup directory for storing already existent system files
-if [ ! -e $HOME/.dotfiles/backups ]; then
-  mkdir backups
+if [ ! -e $HOME/backups ]; then
+  mkdir $HOME/backups
 fi
-
-#Get homebrew installed
 
 #iterate over all dotfiles
 for f in .[^.]*; do
   if [ -f $f ]; then #only care about files
     HOME_FILE="$HOME/$f"
     if [ -e $HOME_FILE ]; then #remove any existing file
-      mv $HOME_FILE $HOME/.dotfiles/backups #move to backup directory
+      mv $HOME_FILE $HOME/backups #move to backup directory
     fi
     echo new link $HOME/.dotfiles/$f to $HOME_FILE
     ln -s $HOME/.dotfiles/$f $HOME_FILE #symlink

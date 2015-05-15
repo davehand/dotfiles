@@ -1,11 +1,10 @@
 #Installation script for binaries
 #Author: Dave Hand
-#Dependencies:A
+#Dependencies:
 # *XCode
-# *XCode Command Line Tools xcode-select --install
-# *Homebrew: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# *XCode Command Line Tools
+# *Homebrew
 
-tap 'Homebrew/bundle'
 tap 'caskroom/cask'
 brew 'archey'
 brew 'ag'
