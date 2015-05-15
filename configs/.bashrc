@@ -67,8 +67,7 @@ man() {
   man "$@"
 }
 
-#rm puts files in the trash
-#TODO this should only be for Mac
+#rm puts files in the trash (Mac)
 function rm() {
   local path
   for path in "$@"; do
@@ -90,8 +89,13 @@ bup() {
   brew update; brew upgrade --all; brew cleanup
   brew update; brew upgrade brew-cask; brew cask cleanup
 }
+
 #TODO update other package managers and such: pip, gem, npm
-#TODO update script that calls rest of update functions
+
+#update everything TODO - call for other package managers too
+update() {
+  bup
+}
 
 # check that archey is installed, then run it
 if [ -x /usr/local/bin/archey ]; then
