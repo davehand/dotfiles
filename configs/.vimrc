@@ -18,6 +18,8 @@ call vundle#begin()
   "needed to install rest of plugins
   Plugin 'gmarik/Vundle.vim'
 
+  Plugin 'tpope/vim-fugitive'
+
   Plugin 'itspriddle/vim-stripper'
 
   Plugin 'tpope/vim-rails'
