@@ -3,6 +3,7 @@
 #Author: Dave Hand
 #Requires dotfiles repo from github, git, XCode
 #Notes: After install, still have some apps to install (see Brewfile)
+#       Also see README for ruby and python extras
 
 #First need to install xcode command line tools
 xcode-select --install
@@ -45,6 +46,5 @@ fi
 ln -s $HOME/.vim/bundle/molokai/colors/molokai.vim $HOME/.vim/colors/molokai.vim
 
 #source the bash files
+cd $HOME
 source $HOME/.bash_profile
-
-#TODO other setup (pip, gems, rbenv global, etc.)
