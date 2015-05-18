@@ -13,6 +13,16 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew tap Homebrew/bundle
 brew bundle
 
+#make development directory
+if [ ! -e $HOME/Development ]; then
+  mkdir $HOME/Development
+  mkdir $HOME/Development/android
+  mkdir $HOME/Development/arduino
+  mkdir $HOME/Development/ios
+  mkdir $HOME/Development/latex
+  mkdir $HOME/Development/workspace
+fi
+
 #make backup directory for storing already existent system files
 if [ ! -e $HOME/backups ]; then
   mkdir $HOME/backups
