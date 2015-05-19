@@ -81,4 +81,5 @@ cask 'the-unarchiver'
 cask 'torbrowser'
 cask 'transmission'
 cask 'vlc'
+cask 'xquartz' #required by wireshark
 cask 'wireshark'
