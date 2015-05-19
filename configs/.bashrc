@@ -2,7 +2,7 @@
 #Author: Dave Hand
 #Sourced from .bash_profile
 
-#add the homebrew path to the PATH TODO brew setting this now?
+#add the homebrew path to the PATH
 #if [ -d $(brew --prefix)/bin ]; then
 #  export PATH=$(brew --prefix)/bin:$PATH
 #fi
@@ -22,7 +22,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   source $(brew --prefix)/etc/bash_completion
 fi
 
-#source rbenv commands if rbenv directory exists TODO not sure if makes a .rbenv dir on Mac
+#source rbenv commands if rbenv directory exists
 if [ -d $HOME/.rbenv ]; then
   export PATH="$HOME/.rbenv/bin:$PATH"
   eval "$(rbenv init -)"
