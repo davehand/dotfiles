@@ -50,7 +50,7 @@ cask 'java'
 cask 'adium'
 cask 'alfred'
 cask 'arduino'
-cask 'battle-net'
+cask 'battle-net' #installs setup, not actual app
 cask 'bittorrent-sync'
 cask 'caffeine'
 cask 'calibre'
