@@ -2,7 +2,7 @@
 System configuration files for Mac/Linux
 
 ##### Setup instructions:
-    Backup iTunes library
+    Backup iTunes library and .ssh config
     Perform clean OS install
     Ensure XCode installed & agree to License Agreement
     Install Mac apps: Pages, Numbers, Keynote, iMovie, GarageBand
@@ -18,7 +18,7 @@ System configuration files for Mac/Linux
     pip install matplotlib
     pip install requests
     Install other Mac apps: Wunderlist, Mint QuickView & others from Brewfile list
-    Restore iTunes library
+    Restore iTunes library and .ssh config
     Set System Preferences & Check for Mac updates
 
 ##### ToDo:
