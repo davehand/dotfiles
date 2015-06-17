@@ -70,7 +70,7 @@ cask 'handbrake'
 cask 'haskell-platform'
 cask 'iterm2'
 cask 'kindle'
-cask 'lastpass'
+cask 'lastpass' #installs installer, not actual app
 cask 'mactex'
 cask 'pgadmin3'
 cask 'skim'
