@@ -25,7 +25,7 @@ fi
 
 #make backup directory for storing already existent system files
 if [ ! -e $HOME/backups ]; then
-  mkdir $HOME/backups
+  mkdir $HOME/.dotfiles/backups
 fi
 
 #iterate over all dotfiles
@@ -34,7 +34,7 @@ for f in .[^.]*; do
   if [ -f $f ]; then #only care about files
     HOME_FILE="$HOME/$f"
     if [ -e $HOME_FILE ]; then #remove any existing file
-      mv $HOME_FILE $HOME/backups #move to backup directory
+      mv $HOME_FILE $HOME/.dotfiles/backups #move to backup directory
     fi
     echo new link $HOME/.dotfiles/configs/$f to $HOME_FILE
     ln -s $HOME/.dotfiles/configs/$f $HOME_FILE #symlink
