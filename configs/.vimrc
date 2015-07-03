@@ -30,6 +30,8 @@ call vundle#begin()
 
   Plugin 'scrooloose/nerdtree'
 
+  Plugin 'scrooloose/syntastic'
+
   "install colorscheme
   Plugin 'tomasr/molokai'
 call vundle#end()
