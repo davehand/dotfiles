@@ -52,7 +52,6 @@ cask 'alfred'
 cask 'amazon-music'
 cask 'arduino'
 cask 'battle-net' #installs setup, not actual app
-cask 'bittorrent-sync'
 cask 'caffeine'
 cask 'calibre'
 cask 'chromecast'
