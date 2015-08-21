@@ -32,7 +32,6 @@ fi
 export EDITOR=vim
 
 #set git specific variables for gitconfig
-export GIT_EDITOR=vim
 export GIT_CRED=osxkeychain #should be different between Mac and Linux
 
 #configure history files

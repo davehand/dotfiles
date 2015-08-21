@@ -10,7 +10,7 @@
   excludesfile = ~/.gitignore_global
   quotepath = false
   pager = less -FRX
-	editor = $GIT_EDITOR
+	editor = vim
 [push]
   ; always be explicit
   default = nothing
