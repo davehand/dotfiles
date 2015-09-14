@@ -28,6 +28,11 @@ if [ -d $HOME/.rbenv ]; then
   eval "$(rbenv init -)"
 fi
 
+#source haskell source if cabal directory exists
+if [ -d $HOME/.cabal ]; then
+  export PATH="$HOME/Library/Haskell/bin:$PATH"
+fi
+
 #set default editor
 export EDITOR=vim
 
@@ -86,6 +91,9 @@ function rm() {
 #update brew
 bup() {
   brew update; brew upgrade --all; brew cleanup
+}
+
+cup() {
   brew update; brew upgrade brew-cask; brew cask cleanup
 }
 
@@ -93,7 +101,7 @@ bup() {
 
 #update everything TODO - call for other package managers too
 update() {
-  bup
+  bup; cup
 }
 
 # check that archey is installed, then run it
