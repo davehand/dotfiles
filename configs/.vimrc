@@ -81,3 +81,7 @@ set ignorecase "ignore letter case
 set smartcase "unless search has uppercase char in it
 
 set cc=80 "highlight column 80 for better code
+
+autocmd VimEnter * NERDTree
+autocmd BufEnter * NERDTreeMirror
+autocmd VimEnter * wincmd w
