@@ -44,7 +44,7 @@ brew 'wget', args: ['with-iri']
 # *Mint QuickView
 # *TuneUp
 # *Hearthstone
-# *SQLDeveloper
+# *SquirrelSQL
 # *Slingplayer-Chrome
 cask 'java'
 cask 'adium'
