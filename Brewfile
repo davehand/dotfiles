@@ -67,7 +67,6 @@ cask 'handbrake'
 cask 'haskell-platform'
 cask 'iterm2'
 cask 'kindle'
-cask 'lastpass' #installs installer, not actual app
 cask 'mactex'
 cask 'openemu'
 cask 'pgadmin3'
