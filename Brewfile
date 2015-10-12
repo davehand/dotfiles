@@ -47,7 +47,6 @@ brew 'wget', args: ['with-iri']
 # *SquirrelSQL
 # *Slingplayer-Chrome
 cask 'java'
-cask 'adium'
 cask 'alfred'
 cask 'amazon-music'
 cask 'arduino'
