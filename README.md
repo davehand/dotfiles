@@ -3,6 +3,7 @@ System configuration files for Mac/Linux
 
 ##### Setup instructions:
     Backup iTunes library and .ssh config
+    Refresh preference files
     Perform clean OS install
     Ensure XCode installed & agree to License Agreement
     Install Mac apps: Pages, Numbers, Keynote, iMovie, GarageBand
