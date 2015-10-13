@@ -2,11 +2,6 @@
 #Author: Dave Hand
 #Sourced from .bash_profile
 
-#add the homebrew path to the PATH
-#if [ -d $(brew --prefix)/bin ]; then
-#  export PATH=$(brew --prefix)/bin:$PATH
-#fi
-
 #source the prompt for bash
 if [ -f ~/.prompt_bash ]; then
   source ~/.prompt_bash
