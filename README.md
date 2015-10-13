@@ -14,6 +14,7 @@ System configuration files for Mac/Linux
 ##### Post-Install:
     rbenv install <latest-version-ruby>
     rbenv global <latest-version-ruby>
+    Restart iTerm
     gem install awesome_print wirb bropages
     pip install -U numpy scipy scikit-learn
     pip install matplotlib
@@ -21,6 +22,8 @@ System configuration files for Mac/Linux
     Install other Mac apps: Wunderlist, Mint QuickView & others from Brewfile list
     Restore iTunes library and .ssh config
     Set System Preferences & Check for Mac updates
+    Apply preferences in prefs folder
+    For iTerm, point it to the prefs directory, then reload iTerm
 
 ##### ToDo:
 * Add update commands to bashrc
