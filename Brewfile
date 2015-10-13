@@ -49,6 +49,7 @@ brew 'wget', args: ['with-iri']
 cask 'java'
 cask 'alfred'
 cask 'amazon-music'
+cask 'appcleaner'
 cask 'arduino'
 cask 'battle-net' #installs setup, not actual app
 cask 'caffeine'
