@@ -874,7 +874,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/handd/.dotfiles/prefs</string>
+	<string>/Users/davehand/.dotfiles/prefs</string>
 	<key>PromptOnQuit</key>
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
