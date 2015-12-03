@@ -41,7 +41,6 @@ brew 'wget', args: ['with-iri']
 # *Photoshop
 # *TrueCrypt
 # *Wunderlist
-# *Mint QuickView
 # *TuneUp
 # *Hearthstone
 # *SquirrelSQL
