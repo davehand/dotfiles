@@ -54,9 +54,9 @@ set virtualedit=onemore "can place cursor over line end in normal mode
 
 set expandtab
 set smarttab "Insert space instead of tabs
-set tabstop=2 "Tabs are two spaces wide
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4 "Tabs are two spaces wide
+set softtabstop=4
+set shiftwidth=4
 
 set backspace=indent,eol,start "Backspace over these characters
 set clipboard=unnamed "integrate with OS clipboard
