@@ -48,8 +48,8 @@ brew 'wget', args: ['with-iri']
 cask 'java'
 cask 'alfred'
 cask 'amazon-music'
+cask 'android-studio'
 cask 'appcleaner'
-cask 'arduino'
 cask 'battle-net' #installs setup, not actual app
 cask 'calibre'
 cask 'chromecast'

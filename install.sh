@@ -17,9 +17,7 @@ brew bundle
 if [ ! -e $HOME/Development ]; then
   mkdir $HOME/Development
   mkdir $HOME/Development/android
-  mkdir $HOME/Development/arduino
   mkdir $HOME/Development/ios
-  mkdir $HOME/Development/latex
   mkdir $HOME/Development/workspace
 fi
 
