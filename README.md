@@ -20,7 +20,7 @@ System configuration files for Mac/Linux
     pip install -U numpy scipy scikit-learn
     pip install matplotlib
     pip install requests
-    Install other Mac apps: Wunderlist, Mint QuickView & others from Brewfile list
+    Install other Mac apps: Wunderlist & others from Brewfile list
     Restore iTunes library and .ssh config
     Set System Preferences & Check for Mac updates
     Apply preferences in prefs folder
