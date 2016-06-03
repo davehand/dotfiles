@@ -9,6 +9,7 @@ System configuration files for Mac/Linux
     Install Mac apps: Pages, Numbers, Keynote, iMovie, GarageBand
     git clone https://github.com/davehand/dotfiles.git ~/.dotfiles
     cd ~/.dotfiles
+    chmod ~/.dotfiles to be owned by user
     ./install.sh
 
 ##### Post-Install:
