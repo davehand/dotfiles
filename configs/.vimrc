@@ -3,6 +3,8 @@
 "Borrowed somewhat from everett1992/dotfiles
 "Requires Vundle - run 'sh setup_vim.sh'
 
+set shell=/bin/bash
+
 set nocompatible "disable vi compatibility
 filetype off
 
@@ -16,7 +18,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
   "needed to install rest of plugins
-  Plugin 'gmarik/Vundle.vim'
+  Plugin 'VundleVim/Vundle.vim'
 
   Plugin 'tpope/vim-fugitive'
 
@@ -83,5 +85,4 @@ set smartcase "unless search has uppercase char in it
 set cc=80 "highlight column 80 for better code
 
 autocmd VimEnter * NERDTree
-autocmd BufEnter * NERDTreeMirror
-autocmd VimEnter * wincmd w
+autocmd VimEnter * wincmd p
