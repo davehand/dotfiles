@@ -47,7 +47,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>269 168 606 456 0 0 1280 777 </string>
+	<string>269 255 606 456 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>83 234 710 477 0 0 1280 777 </string>
 	<key>New Bookmarks</key>
@@ -254,7 +254,7 @@
 				<real>1</real>
 			</dict>
 			<key>Custom Command</key>
-			<string>Yes</string>
+			<string>No</string>
 			<key>Custom Directory</key>
 			<string>No</string>
 			<key>Default Bookmark</key>
