@@ -21,6 +21,7 @@ brew 'git'
 brew 'htop-osx'
 brew 'httpie'
 brew 'irssi'
+brew 'jq'
 brew 'libyaml' #required by rbenv
 brew 'libffi' #required by rbenv
 brew 'node'
