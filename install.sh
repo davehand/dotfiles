@@ -9,16 +9,13 @@
 xcode-select --install
 
 #Install homebrew and brew bundle
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap Homebrew/bundle
 brew bundle
 
 #make development directory
 if [ ! -e $HOME/Development ]; then
   mkdir $HOME/Development
-  mkdir $HOME/Development/android
-  mkdir $HOME/Development/ios
-  mkdir $HOME/Development/workspace
 fi
 
 #make backup directory for storing already existent system files
