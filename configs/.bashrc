@@ -2,6 +2,8 @@
 #Author: Dave Hand
 #Sourced from .bash_profile
 
+export PATH=/usr/local/bin:$PATH
+
 #source the prompt for bash
 if [ -f ~/.prompt_bash ]; then
   source ~/.prompt_bash
