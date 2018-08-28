@@ -10,7 +10,6 @@ brew 'archey'
 brew 'ag'
 brew 'bash'
 brew 'bash-completion'
-brew 'brew-cask'
 brew 'coreutils'
 brew 'cowsay'
 brew 'cscope'
@@ -40,7 +39,6 @@ brew 'wget', args: ['with-iri']
 #Didn't install:
 # *Wunderlist
 # *Hearthstone
-cask 'java'
 cask 'alfred'
 cask 'amazon-music'
 cask 'appcleaner'
