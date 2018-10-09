@@ -39,6 +39,7 @@ brew 'wget', args: ['with-iri']
 #Didn't install:
 # *Wunderlist
 # *Hearthstone
+# *Java
 cask 'alfred'
 cask 'amazon-music'
 cask 'appcleaner'
