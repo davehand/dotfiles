@@ -1,119 +1,61 @@
 {
-  "timeStamp": 1444758377596,
-  "version": "1.2.0",
+  "timeStamp": 1540421245333,
+  "version": "1.17.0",
   "userSettings": {
     "advancedUserEnabled": false,
+    "alwaysDetachLogger": true,
     "autoUpdate": true,
+    "cloudStorageEnabled": false,
     "collapseBlocked": true,
     "colorBlindFriendly": false,
     "contextMenuEnabled": true,
     "dynamicFilteringEnabled": false,
-    "experimentalEnabled": false,
-    "externalLists": "! Examples:\nhttps://easylist-downloads.adblockplus.org/antiadblockfilters.txt\n! https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt\nhttps://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt\n! https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt\nhttps://easylist-downloads.adblockplus.org/yt_annoyances_other.txt",
+    "externalLists": [],
     "firewallPaneMinimized": true,
     "hyperlinkAuditingDisabled": true,
+    "ignoreGenericCosmeticFilters": false,
+    "largeMediaSize": 50,
     "parseAllABPHideFilters": true,
     "prefetchingDisabled": true,
     "requestLogMaxEntries": 1000,
-    "showIconBadge": false,
-    "cloudStorageEnabled": false,
+    "showIconBadge": true,
+    "tooltipsDisabled": false,
     "webrtcIPAddressHidden": false
   },
-  "filterLists": {
-    "assets/user/filters.txt": {
-      "group": "default",
-      "off": false,
-      "entryCount": 0,
-      "entryUsedCount": 0
-    },
-    "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt": {
-      "off": false,
-      "title": "Adblock Warning Removal List",
-      "group": "ads",
-      "supportURL": "https://forums.lanik.us/",
-      "entryCount": 85,
-      "entryUsedCount": 85
-    },
-    "https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt": {
-      "title": "facebook sidebar blocker",
-      "group": "custom",
-      "external": true,
-      "off": false,
-      "entryCount": 9,
-      "entryUsedCount": 9
-    },
-    "https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt": {
-      "title": "Youtube: Other Annoyances",
-      "group": "custom",
-      "external": true,
-      "off": false,
-      "entryCount": 5,
-      "entryUsedCount": 5
-    },
-    "assets/thirdparties/easylist-downloads.adblockplus.org/easylist.txt": {
-      "title": "EasyList",
-      "group": "ads",
-      "homeURL": "https://easylist-downloads.adblockplus.org/easylist.txt",
-      "supportURL": "https://forums.lanik.us/",
-      "off": false,
-      "entryCount": 58329,
-      "entryUsedCount": 58297
-    },
-    "assets/thirdparties/easylist-downloads.adblockplus.org/easyprivacy.txt": {
-      "title": "EasyPrivacy",
-      "group": "privacy",
-      "homeURL": "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
-      "supportURL": "https://forums.lanik.us/",
-      "off": false,
-      "entryCount": 10485,
-      "entryUsedCount": 10446
-    },
-    "assets/thirdparties/mirror1.malwaredomains.com/files/justdomains": {
-      "title": "Malware domains",
-      "group": "malware",
-      "homeURL": "http://malwaredomains.lehigh.edu/files/justdomains",
-      "supportURL": "http://www.malwaredomains.com/",
-      "off": false,
-      "entryCount": 11387,
-      "entryUsedCount": 7368
-    },
-    "assets/thirdparties/pgl.yoyo.org/as/serverlist": {
-      "title": "Peter Lowe’s Ad server list",
-      "group": "ads",
-      "homeURL": "http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext",
-      "supportURL": "http://pgl.yoyo.org/adservers/",
-      "off": false,
-      "entryCount": 2439,
-      "entryUsedCount": 2437
-    },
-    "assets/thirdparties/www.malwaredomainlist.com/hostslist/hosts.txt": {
-      "title": "Malware Domain List",
-      "group": "malware",
-      "homeURL": "http://www.malwaredomainlist.com/hostslist/hosts.txt",
-      "off": false,
-      "entryCount": 1488,
-      "entryUsedCount": 1453
-    },
-    "https://easylist-downloads.adblockplus.org/fanboy-social.txt": {
-      "off": false,
-      "title": "Fanboy’s Social Blocking List",
-      "group": "social",
-      "supportURL": "https://forums.lanik.us/",
-      "entryCount": 12836,
-      "entryUsedCount": 12836
-    },
-    "http://malwaredomains.lehigh.edu/files/immortal_domains.txt": {
-      "off": false,
-      "title": "Malware domains (long-lived)",
-      "group": "malware",
-      "supportURL": "http://www.malwaredomains.com/",
-      "entryCount": 3986,
-      "entryUsedCount": 3986
-    }
+  "selectedFilterLists": [
+    "user-filters",
+    "assets.json",
+    "public_suffix_list.dat",
+    "ublock-resources",
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-abuse",
+    "ublock-unbreak",
+    "easylist",
+    "easyprivacy",
+    "malware-0",
+    "malware-1",
+    "plowe-0"
+  ],
+  "hiddenSettings": {
+    "assetFetchTimeout": 30,
+    "autoUpdateAssetFetchPeriod": 120,
+    "autoUpdatePeriod": 7,
+    "cacheStorageCompression": true,
+    "debugScriptlets": false,
+    "cacheControlForFirefox1376932": "no-cache, no-store, must-revalidate",
+    "ignoreRedirectFilters": false,
+    "ignoreScriptInjectFilters": false,
+    "manualUpdateAssetFetchPeriod": 500,
+    "popupFontSize": "unset",
+    "requestJournalProcessPeriod": 1000,
+    "suspendTabsUntilReady": false,
+    "userResourcesLocation": "unset"
   },
-  "netWhitelist": "about-scheme\nbehind-the-scene\nchrome-extension-scheme\nchrome-scheme\nloopconversation.about-scheme\nopera-scheme",
-  "dynamicFilteringString": "",
+  "netWhitelist": "about-scheme\nchrome-extension-scheme\nchrome-scheme\nmoz-extension-scheme\nopera-scheme\nvivaldi-scheme\nwyciwyg-scheme",
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
-  "hostnameSwitchesString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-scripting: behind-the-scene false",
   "userFilters": ""
 }
