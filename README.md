@@ -6,7 +6,6 @@ System configuration files for Mac/Linux
     Refresh preference files
     Perform clean OS install
     Ensure XCode installed & agree to License Agreement
-    Install Mac apps: Pages, Numbers, Keynote, iMovie, GarageBand
     git clone https://github.com/davehand/dotfiles.git ~/.dotfiles
     cd ~/.dotfiles
     chmod ~/.dotfiles to be owned by user
@@ -25,9 +24,6 @@ System configuration files for Mac/Linux
     Set System Preferences & Check for Mac updates
     Apply preferences in prefs folder
     For iTerm, point it to the prefs directory, then reload iTerm
-
-##### ToDo:
-* Add update commands to bashrc
 
 ##### Borrowed From:
 * [exchgr/dotfiles](https://github.com/exchgr/dotfiles)
