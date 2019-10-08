@@ -5,7 +5,6 @@
 # *XCode Command Line Tools
 # *Homebrew
 
-tap 'caskroom/cask'
 brew 'archey'
 brew 'ag'
 brew 'bash'
@@ -33,7 +32,7 @@ brew 'readline'
 brew 'tmux'
 brew 'tree'
 brew 'vim'
-brew 'wget', args: ['with-iri']
+brew 'wget'
 
 #cask files
 #Didn't install:
