@@ -10,6 +10,7 @@
 *.exe
 *.o
 *.so
+build
 
 # Packages #
 ############
@@ -41,3 +42,8 @@
 *.vis
 .vim.custom
 engines/*/config/environment.rb
+
+# Other #
+#############
+*.iml
+

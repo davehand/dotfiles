@@ -36,7 +36,6 @@ brew 'wget'
 
 #cask files
 #Didn't install:
-# *Wunderlist
 # *Hearthstone
 # *Java
 cask 'alfred'
@@ -53,6 +52,7 @@ cask 'intellij-idea'
 cask 'iterm2'
 cask 'keepingyouawake'
 cask 'kindle'
+cask 'omnifocus'
 cask 'openemu'
 cask 'skype'
 cask 'slack'
