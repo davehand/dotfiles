@@ -108,5 +108,12 @@ fi
 
 #check that both fortune and cowsay are installed, display them
 if [ -x /usr/local/bin/cowsay -a -x /usr/local/bin/fortune ]; then
-  fortune | cowsay
+  let "number = $RANDOM % 100"
+  if [ "$number" -eq 0 ]; then
+    echo "England sucks" | cowsay
+  elif [ "$number" -eq 1 ]; then
+    echo "Philadelphia suxx" | cowsay
+  else
+    fortune | cowsay
+  fi
 fi
