@@ -5,7 +5,7 @@
 # *XCode Command Line Tools
 # *Homebrew
 
-brew 'archey'
+brew 'archey4'
 brew 'ag'
 brew 'bash'
 brew 'bash-completion'
@@ -36,13 +36,10 @@ brew 'wget'
 
 #cask files
 #Didn't install:
-# *Hearthstone
 # *Java
+# *App Store apps
 cask 'alfred'
-cask 'amazon-music'
 cask 'appcleaner'
-cask 'battle-net' #installs setup, not actual app
-cask 'doxie'
 cask 'dropbox'
 cask 'evernote'
 cask 'firefox'
@@ -54,9 +51,7 @@ cask 'keepingyouawake'
 cask 'kindle'
 cask 'omnifocus'
 cask 'openemu'
-cask 'skype'
 cask 'slack'
-cask 'spotify'
 cask 'steam'
 cask 'sublime-text'
 cask 'the-unarchiver'

@@ -9,6 +9,8 @@ if [ -f ~/.prompt_bash ]; then
   source ~/.prompt_bash
 fi
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 #source homebrew tab completion
 if [ -f $(brew --prefix)/Library/Contributions/brew_bash_completion.sh ]; then
   source $(brew --prefix)/Library/Contributions/brew_bash_completion.sh

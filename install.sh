@@ -9,9 +9,7 @@
 xcode-select --install
 
 #Install homebrew and brew bundle
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap Homebrew/bundle
-brew tap Homebrew/cask
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew bundle
 
 #make development directory
